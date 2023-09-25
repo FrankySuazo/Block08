@@ -1,0 +1,39 @@
+/*#00BFFF = DeepSkyBlue
+  #368BC1 = Glacial Blue Ice*/
+* {
+  font-family: "open sans", sans serif;
+}
+main {
+  min-height: 100vh;
+  padding: 64px 24px 96px;
+  margin-left: 30%;
+  margin-top: 10%;
+  /*color: #368bc1;*/
+}
+header {
+  background-color: rgba(54, 139, 193, 0.7);
+  border-radius: 16px;
+}
+.name {
+  font-size: 50px;
+  margin-left: 0.5em;
+  margin-left: 10%;
+  margin-top: 300px;
+  /*position: adsolute;*/
+}
+
+a {
+  font-size: 25px;
+  margin-left: 20em;
+  padding-bottom: 10em;
+}
+button {
+  color: black;
+}
+body {
+  background-image: url("./Images/SIMPLE-BLUE-BACKGROUND.jpg");
+  background-size: cover;
+}
+
+html {
+}
