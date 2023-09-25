@@ -13,19 +13,25 @@ main {
 header {
   background-color: rgba(54, 139, 193, 0.7);
   border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
 }
 .name {
-  font-size: 50px;
-  margin-left: 0.5em;
-  margin-left: 10%;
-  margin-top: 300px;
-  /*position: adsolute;*/
+  font-size: 40px;
+  padding: 0;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
 }
 
 a {
   font-size: 25px;
-  margin-left: 20em;
-  padding-bottom: 10em;
+  /*margin-left: 20em;
+  padding-bottom: 10em;*/
 }
 button {
   color: black;
